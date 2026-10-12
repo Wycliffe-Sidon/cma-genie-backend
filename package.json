@@ -1,0 +1,22 @@
+{
+  "name": "cma_genie_backend",
+  "version": "4.2.0",
+  "description": "AI backend for CMA Genie Flutter app",
+  "main": "server.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["real-estate", "cma", "ai", "groq", "zillapi"],
+  "author": "CMA Genie",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+}
